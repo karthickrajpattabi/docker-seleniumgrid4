@@ -1,0 +1,8 @@
+docker ps -a
+
+docker compose -f filename up
+
+docker compose -f filename up --scale chromeservice =2
+
+
+docker compose -f filename down
